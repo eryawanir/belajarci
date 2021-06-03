@@ -23,6 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+//ubah base url
 $config['base_url'] = 'http://localhost/belajarci/';
 
 /*
@@ -35,6 +36,7 @@ $config['base_url'] = 'http://localhost/belajarci/';
 | variable so that it is blank.
 |
 */
+// hapus kalo make mod_rewrite (index.php ilang di htacces)
 $config['index_page'] = '';
 
 /*
