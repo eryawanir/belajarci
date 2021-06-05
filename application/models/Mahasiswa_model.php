@@ -1,6 +1,6 @@
 <?php
 
-class Mahasiswa_model extends CI_Controller
+class Mahasiswa_model extends CI_Model
 {
     public function getAllMahasiswa()
     {
